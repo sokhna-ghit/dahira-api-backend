@@ -31,4 +31,22 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'orange' => [
+        'client_id' => env('ORANGE_CLIENT_ID'),
+        'client_secret' => env('ORANGE_CLIENT_SECRET'),
+        'api_key' => env('ORANGE_API_KEY'),
+        'base_url' => env('ORANGE_BASE_URL', 'https://api.orange.com'),
+        'country_code' => env('ORANGE_COUNTRY_CODE', 'SN'),
+        'environment' => env('ORANGE_ENVIRONMENT', 'sandbox'),
+    ],
+
+    'paydunya' => [
+        'master_key' => env('PAYDUNYA_MASTER_KEY'),
+        'private_key' => env('PAYDUNYA_PRIVATE_KEY'),
+        'public_key' => env('PAYDUNYA_PUBLIC_KEY'),
+        'token' => env('PAYDUNYA_TOKEN'),
+        'mode' => env('PAYDUNYA_MODE', 'test'),
+        'base_url' => env('PAYDUNYA_BASE_URL', 'https://app.paydunya.com'),
+    ],
+
 ];

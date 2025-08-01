@@ -8,7 +8,14 @@ class Dahira extends Model
 {
     protected $fillable = [
         'nom',
+        'ville',
+        'region',
         'adresse',
+        'confrerie',
+        'description',
+        'imageUrl',
+        'nombreMembres',
+        'statut',
     ];
 
     // Relation : un Dahira a plusieurs membres
